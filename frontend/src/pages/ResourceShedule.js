@@ -65,7 +65,7 @@ const ResourceSchedule = () => {
           note
         });
         window.alert('Resource Schedule Saved Successfully');
-        navigate('/schedule');
+        navigate('/shedule');
       } catch (error) {
         console.error('Error saving resource schedule:', error);
       }
