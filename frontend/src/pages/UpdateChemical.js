@@ -54,7 +54,7 @@ const UpdateChemical = () => {
         purchaseCost,
         storageCondition
       });
-      navigate('/chemicals'); // Redirect to the chemicals list page after update
+      navigate('/viewChemicals'); // Redirect to the chemicals list page after update
     } catch (error) {
       console.error('Error updating chemical data:', error);
     }
